@@ -1,0 +1,15 @@
+vagrant box add bento/centos-7.2
+
+
+vagrant box add bento/centos-7.2 --provider=virtualbox
+
+vagrant init bento/centos-7.2
+vim vagrantfile
+
+
+
+
+
+
+curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P chefdk -c stable -v 0.18.30
+
